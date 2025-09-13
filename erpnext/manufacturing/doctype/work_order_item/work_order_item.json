@@ -19,6 +19,7 @@
   "rate",
   "amount",
   "column_break_11",
+  "bin_location",
   "transferred_qty",
   "consumed_qty",
   "returned_qty",

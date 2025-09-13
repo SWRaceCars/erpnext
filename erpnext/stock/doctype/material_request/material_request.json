@@ -18,6 +18,7 @@
   "schedule_date",
   "buying_price_list",
   "amended_from",
+  "notes",
   "warehouse_section",
   "scan_barcode",
   "last_scanned_warehouse",
@@ -387,7 +388,6 @@
    "read": 1,
    "report": 1,
    "role": "Purchase Manager",
-   "set_user_permissions": 1,
    "share": 1,
    "submit": 1,
    "write": 1

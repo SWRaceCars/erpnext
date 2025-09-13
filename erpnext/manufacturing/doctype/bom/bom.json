@@ -11,6 +11,7 @@
   "company",
   "uom",
   "quantity",
+  "item_bin",
   "cb0",
   "is_active",
   "is_default",
@@ -631,6 +632,13 @@
   {
    "fieldname": "column_break_oxbz",
    "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "item.item_bin",
+   "fieldname": "item_bin",
+   "fieldtype": "Data",
+   "label": "Bin Location",
+   "search_index": 1
   }
  ],
  "icon": "fa fa-sitemap",

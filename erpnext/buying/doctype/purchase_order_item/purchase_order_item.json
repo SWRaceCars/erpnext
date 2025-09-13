@@ -130,9 +130,7 @@
   {
    "fieldname": "supplier_part_no",
    "fieldtype": "Data",
-   "hidden": 1,
    "label": "Supplier Part Number",
-   "print_hide": 1,
    "read_only": 1
   },
   {

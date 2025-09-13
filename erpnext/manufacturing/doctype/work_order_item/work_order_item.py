@@ -19,6 +19,7 @@ class WorkOrderItem(Document):
 		amount: DF.Currency
 		available_qty_at_source_warehouse: DF.Float
 		available_qty_at_wip_warehouse: DF.Float
+		bin_location: DF.Data | None
 		consumed_qty: DF.Float
 		description: DF.Text | None
 		include_item_in_manufacturing: DF.Check
