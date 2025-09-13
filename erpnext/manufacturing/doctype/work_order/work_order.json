@@ -22,6 +22,7 @@
   "produced_qty",
   "process_loss_qty",
   "project",
+  "note",
   "section_break_ndpq",
   "required_items",
   "work_order_configuration",
@@ -43,7 +44,6 @@
   "has_batch_no",
   "column_break_18",
   "batch_size",
-  "required_items_section",
   "materials_and_operations_tab",
   "operations_section",
   "transfer_material_against",
@@ -269,11 +269,6 @@
    "fieldtype": "Link",
    "label": "Scrap Warehouse",
    "options": "Warehouse"
-  },
-  {
-   "fieldname": "required_items_section",
-   "fieldtype": "Section Break",
-   "label": "Required Items"
   },
   {
    "fieldname": "required_items",
@@ -586,6 +581,14 @@
   {
    "fieldname": "section_break_ndpq",
    "fieldtype": "Section Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "allow_on_submit": 1,
+   "fieldname": "note",
+   "fieldtype": "Data",
+   "in_preview": 1,
+   "label": "Note"
   }
  ],
  "icon": "fa fa-cogs",
@@ -593,7 +596,7 @@
  "image_field": "image",
  "is_submittable": 1,
  "links": [],
- "modified": "2024-02-11 15:47:13.454422",
+ "modified": "2024-10-21 06:25:00.907592",
  "modified_by": "Administrator",
  "module": "Manufacturing",
  "name": "Work Order",

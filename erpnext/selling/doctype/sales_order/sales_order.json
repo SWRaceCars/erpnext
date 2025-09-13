@@ -26,6 +26,7 @@
   "company",
   "skip_delivery_note",
   "amended_from",
+  "additional_instructions",
   "accounting_dimensions_section",
   "cost_center",
   "dimension_col_break",
@@ -1142,6 +1143,7 @@
    "read_only": 1
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "project",
    "fieldtype": "Link",
    "hide_days": 1,
@@ -1639,13 +1641,19 @@
    "no_copy": 1,
    "print_hide": 1,
    "report_hide": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "additional_instructions",
+   "fieldtype": "Data",
+   "label": "Additional Instructions"
   }
  ],
  "icon": "fa fa-file-text",
  "idx": 105,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-03-29 16:27:41.539613",
+ "modified": "2024-11-21 10:53:02.303410",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Sales Order",

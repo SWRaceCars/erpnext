@@ -17,6 +17,7 @@
   "transaction_date",
   "schedule_date",
   "amended_from",
+  "notes",
   "warehouse_section",
   "scan_barcode",
   "column_break_13",
@@ -351,13 +352,19 @@
   {
    "fieldname": "column_break_13",
    "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "notes",
+   "fieldtype": "Data",
+   "label": "Notes"
   }
  ],
  "icon": "fa fa-ticket",
  "idx": 70,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-15 12:07:24.789471",
+ "modified": "2024-12-31 06:31:30.173356",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Material Request",
@@ -376,7 +383,6 @@
    "read": 1,
    "report": 1,
    "role": "Purchase Manager",
-   "set_user_permissions": 1,
    "share": 1,
    "submit": 1,
    "write": 1

@@ -106,12 +106,11 @@ class BOM(WebsiteGenerator):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
-		from frappe.types import DF
-
 		from erpnext.manufacturing.doctype.bom_explosion_item.bom_explosion_item import BOMExplosionItem
 		from erpnext.manufacturing.doctype.bom_item.bom_item import BOMItem
 		from erpnext.manufacturing.doctype.bom_operation.bom_operation import BOMOperation
 		from erpnext.manufacturing.doctype.bom_scrap_item.bom_scrap_item import BOMScrapItem
+		from frappe.types import DF
 
 		allow_alternative_item: DF.Check
 		amended_from: DF.Link | None
@@ -134,6 +133,7 @@ class BOM(WebsiteGenerator):
 		is_active: DF.Check
 		is_default: DF.Check
 		item: DF.Link
+		item_bin: DF.Data | None
 		item_name: DF.Data | None
 		items: DF.Table[BOMItem]
 		operating_cost: DF.Currency

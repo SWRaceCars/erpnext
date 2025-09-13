@@ -397,6 +397,7 @@
    "print_hide": 1
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "due_date",
    "fieldtype": "Date",
    "hide_days": 1,
@@ -2185,7 +2186,7 @@
    "link_fieldname": "consolidated_invoice"
   }
  ],
- "modified": "2024-03-22 17:50:34.395602",
+ "modified": "2025-03-05 09:56:07.394421",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Invoice",
